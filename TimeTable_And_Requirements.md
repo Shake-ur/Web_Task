@@ -24,8 +24,11 @@ was ist optional.
 Was ist ein MUSS:
 -----------------------------------------------------------------------------------------------------------------------------
 Funktionierendes Login system. 
+
 Landing page anhand von cookies user ein / ausloggen (wenn remember me an ist)
+
 Landing page, selected regions/leagues anhand von cookies
+
 News sollen von sheepesports/lolesports.com herangeholt werden.
 
 play und draft aspekte müssen möglichst flüssig und intuitiv to use sein. (falls asp.net nicht ausreicht, switch to j-script)
@@ -61,7 +64,9 @@ Sounds die das geschehen reflektieren.
 Videoplayer für current running games.
 
 Betting/Spectator system für private leagues.
+
 fleshed out contract system (players can play for multiple leagues/teams, have to be acquired up to certain Date otherwise consequences) 
+
 Injury / sickness system (random chance/according to irl injury)
 
 Friend system.
@@ -69,10 +74,17 @@ Friend system.
 Was ist optional:
 -----------------------------------------------------------------------------------------------------------------------------
 Clans
+
 Tournaments
+
 Quests and reward system
+
 Skins for players/environment
+
 more user customisation (different fonts, profile picture outlines, like discord stuff)
+
 direct messaging system.
+
 Single player mode (you vs game engine.)
+
 long form single player mode (career type mode)
