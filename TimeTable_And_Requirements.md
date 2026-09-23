@@ -2,7 +2,7 @@
 
 Timeline estimate: 4weeks (6 days a week at 4-5h) (1-5 regular, 1 day a week if crunch) 
 
-Timeline should be --> landing page, Schedule, login, draft, play
+Timeline should be --> landing page, login & account system, Schedule, login, draft, play
 
 Techstack asp.net, sql for data keeping. in case asp.net is not qualified for game aspects use j-script or other
 
