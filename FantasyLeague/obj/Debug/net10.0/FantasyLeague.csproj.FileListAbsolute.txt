@@ -95,3 +95,4 @@
 /home/dkraemer/RiderProjects/FantasyLeague/FantasyLeague/obj/Debug/net10.0/FantasyLeague.pdb
 /home/dkraemer/RiderProjects/FantasyLeague/FantasyLeague/obj/Debug/net10.0/FantasyLeague.genruntimeconfig.cache
 /home/dkraemer/RiderProjects/FantasyLeague/FantasyLeague/obj/Debug/net10.0/ref/FantasyLeague.dll
+/home/dkraemer/RiderProjects/FantasyLeague/FantasyLeague/obj/Debug/net10.0/FantasyLeague.sourcelink.json
