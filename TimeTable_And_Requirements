@@ -1,0 +1,76 @@
+Rough outline for timeline etc.
+
+Timeline estimate: 4weeks (6 days a week at 4-5h) (1-5 regular, 1 day a week if crunch) 
+
+Timeline should be --> landing page, Schedule, login, draft, play
+
+Techstack asp.net, sql for data keeping. in case asp.net is not qualified for game aspects use j-script or other
+
+Layout should be somewhat according to wireframe drawn on paper.
+
+
+
+
+Grundlegende fragen:
+
+Was MUSS funktionieren
+
+Was ist Nice to have
+
+was ist optional.
+
+
+
+Was ist ein MUSS:
+Funktionierendes Login system. 
+Landing page anhand von cookies user ein / ausloggen (wenn remember me an ist)
+Landing page, selected regions/leagues anhand von cookies
+News sollen von sheepesports/lolesports.com herangeholt werden.
+
+play und draft aspekte müssen möglichst flüssig und intuitiv to use sein. (falls asp.net nicht ausreicht, switch to j-script)
+
+play engine  die anhand der stats und slight randomization das ergebnis errechnet.
+
+Dark mode
+
+Visual output für selected und hovered.
+
+play and draft sollen recent performance reflektieren, daten können von loldb geholt werden. (API????)
+
+Recent performance soll auswirkung auf preis haben genauso wie popularity with players.
+
+Single global Fantasyplay league.
+
+Private leagues/user created leagues
+
+Easy to use league creator.
+
+league invite system.
+
+Economy system (currency, fees für spieler, renaming actions for fees)
+
+player lock (during league players can not be swapped)
+
+user profile pictures
+-----------------------------------------------------------------------------------------------------------------------------
+Was ist nice to have:
+
+Sounds die das geschehen reflektieren.
+
+Videoplayer für current running games.
+
+Betting/Spectator system für private leagues.
+fleshed out contract system (players can play for multiple leagues/teams, have to be acquired up to certain Date otherwise consequences) 
+Injury / sickness system (random chance/according to irl injury)
+
+Friend system.
+-----------------------------------------------------------------------------------------------------------------------------
+Was ist optional:
+Clans
+Tournaments
+Quests and reward system
+Skins for players/environment
+more user customisation (different fonts, profile picture outlines, like discord stuff)
+direct messaging system.
+Single player mode (you vs game engine.)
+long form single player mode (career type mode)
