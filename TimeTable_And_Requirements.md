@@ -88,3 +88,9 @@ direct messaging system.
 Single player mode (you vs game engine.)
 
 long form single player mode (career type mode)
+
+Review system
+
+User account comments (comments on a profile)
+
+Public Profile customization
