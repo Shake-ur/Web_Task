@@ -1,6 +1,6 @@
 # Rough outline for timeline etc.
 
-Timeline estimate: 4weeks (6 days a week at 4-5h) (1-5 regular, 1 day a week if crunch) 
+Timeline estimate: 4weeks (6 days a week at 4-5h) (1-5 regular, +1 day a week if crunch) 
 
 Timeline should be --> landing page, login & account system, Schedule, login, draft, play
 
