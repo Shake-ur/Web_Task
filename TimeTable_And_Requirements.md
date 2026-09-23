@@ -1,4 +1,4 @@
-#Rough outline for timeline etc.
+# Rough outline for timeline etc.
 
 Timeline estimate: 4weeks (6 days a week at 4-5h) (1-5 regular, 1 day a week if crunch) 
 
@@ -22,6 +22,7 @@ was ist optional.
 
 
 Was ist ein MUSS:
+-----------------------------------------------------------------------------------------------------------------------------
 Funktionierendes Login system. 
 Landing page anhand von cookies user ein / ausloggen (wenn remember me an ist)
 Landing page, selected regions/leagues anhand von cookies
@@ -52,9 +53,9 @@ Economy system (currency, fees für spieler, renaming actions for fees)
 player lock (during league players can not be swapped)
 
 user profile pictures
------------------------------------------------------------------------------------------------------------------------------
-Was ist nice to have:
 
+Was ist nice to have:
+-----------------------------------------------------------------------------------------------------------------------------
 Sounds die das geschehen reflektieren.
 
 Videoplayer für current running games.
@@ -64,8 +65,9 @@ fleshed out contract system (players can play for multiple leagues/teams, have t
 Injury / sickness system (random chance/according to irl injury)
 
 Friend system.
------------------------------------------------------------------------------------------------------------------------------
+
 Was ist optional:
+-----------------------------------------------------------------------------------------------------------------------------
 Clans
 Tournaments
 Quests and reward system
