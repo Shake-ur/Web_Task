@@ -1,48 +1,165 @@
 /* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
-a.navbar-brand[b-th22iin6ns] {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+
+/* =========================
+   THEME VARIABLES
+   ========================= */
+
+/* Light Mode - Default */
+:root[b-8qqz51oqfi] {
+    --background-color: #ffffff;
+    --text-color: #212529;
+    --secondary-text-color: #6c757d;
+    --navbar-color: #ffffff;
+    --footer-color: #ffffff;
+    --border-color: #e5e5e5;
+    --link-color: #0077cc;
+    --button-color: #1b6ec2;
+    --button-border-color: #1861ac;
+    --button-text-color: #ffffff;
+    --card-color: #ffffff;
 }
 
-a[b-th22iin6ns] {
-  color: #0077cc;
+
+/* Dark Mode */
+body.dark-mode[b-8qqz51oqfi] {
+    --background-color: #121212;
+    --text-color: #eeeeee;
+    --secondary-text-color: #aaaaaa;
+    --navbar-color: #1e1e1e;
+    --footer-color: #1e1e1e;
+    --border-color: #333333;
+    --link-color: #66b3ff;
+    --button-color: #1b6ec2;
+    --button-border-color: #1861ac;
+    --button-text-color: #ffffff;
+    --card-color: #1e1e1e;
 }
 
-.btn-primary[b-th22iin6ns] {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+
+/* =========================
+   GENERAL PAGE
+   ========================= */
+
+html[b-8qqz51oqfi] {
+    background-color: var(--background-color);
 }
 
-.nav-pills .nav-link.active[b-th22iin6ns], .nav-pills .show > .nav-link[b-th22iin6ns] {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+body[b-8qqz51oqfi] {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.2s ease, color 0.2s ease;
 }
 
-.border-top[b-th22iin6ns] {
-  border-top: 1px solid #e5e5e5;
-}
-.border-bottom[b-th22iin6ns] {
-  border-bottom: 1px solid #e5e5e5;
+
+/* =========================
+   NAVBAR
+   ========================= */
+
+a.navbar-brand[b-8qqz51oqfi] {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
 }
 
-.box-shadow[b-th22iin6ns] {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+.navbar[b-8qqz51oqfi] {
+    background-color: var(--navbar-color) !important;
+    transition: background-color 0.2s ease;
 }
 
-button.accept-policy[b-th22iin6ns] {
-  font-size: 1rem;
-  line-height: inherit;
+
+/* =========================
+   LINKS
+   ========================= */
+
+a[b-8qqz51oqfi] {
+    color: var(--link-color);
 }
 
-.footer[b-th22iin6ns] {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px;
+
+/* =========================
+   BUTTONS
+   ========================= */
+
+.btn-primary[b-8qqz51oqfi] {
+    color: var(--button-text-color);
+    background-color: var(--button-color);
+    border-color: var(--button-border-color);
+}
+
+.nav-pills .nav-link.active[b-8qqz51oqfi],
+.nav-pills .show > .nav-link[b-8qqz51oqfi] {
+    color: #fff;
+    background-color: var(--button-color);
+    border-color: var(--button-border-color);
+}
+.nav-link[b-8qqz51oqfi] {
+    color: var(--site-text);
+}
+
+body.dark-mode .nav-link[b-8qqz51oqfi] {
+    color: #eeeeee;
+}
+
+    body.dark-mode .nav-link:hover[b-8qqz51oqfi] {
+        color: #ffffff;
+    }
+
+/* =========================
+   BORDERS
+   ========================= */
+
+.border-top[b-8qqz51oqfi] {
+    border-top: 1px solid var(--border-color);
+}
+
+.border-bottom[b-8qqz51oqfi] {
+    border-bottom: 1px solid var(--border-color);
+}
+
+
+/* =========================
+   BOX SHADOW
+   ========================= */
+
+.box-shadow[b-8qqz51oqfi] {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+
+/* =========================
+   BUTTON
+   ========================= */
+
+button.accept-policy[b-8qqz51oqfi] {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+
+/* =========================
+   FOOTER
+   ========================= */
+
+.footer[b-8qqz51oqfi] {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+    background-color: var(--footer-color);
+    color: var(--text-color);
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+
+/* =========================
+   CARDS
+   ========================= */
+
+.card[b-8qqz51oqfi] {
+    background-color: var(--card-color);
+    color: var(--text-color);
+    border-color: var(--border-color);
 }

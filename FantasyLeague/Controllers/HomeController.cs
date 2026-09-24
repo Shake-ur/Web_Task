@@ -1,14 +1,22 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using FantasyLeague.Models;
+using FantasyLeague.ViewModels;
 
 namespace FantasyLeague.Controllers;
 
 public class HomeController : Controller
 {
-    public IActionResult Index()
+    private readonly INewsSource _newsSource;
+    public HomeController(INewsSource newsSource)
     {
-        return View();
+        _newsSource = newsSource; 
+    }
+    public async Task<IActionResult> Index()
+    {
+        var articles = await _newsSource.FetchArticlesAsync(CancellationToken.None);
+        var model = new IndexViewModel { News = articles.ToList()};
+        return View(model);
     }
 
     public IActionResult Privacy()

@@ -1,8 +1,180 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-
+@model FantasyLeague.ViewModels.IndexViewModel;
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <p>Work in Progress, will be landing Page in the Future.</a>.</p>
 </div>
+
+<div id="matches" class="empty">Loading...</div>
+<script>
+    async function loadLive(){
+        const tempMatches = document.getElementById('matches');
+        try{
+            const result = await fetch('/api/lolesports/live');
+            const events = await result.json();
+                if(!events.length || events.length == 0){
+                    tempMatches.textContent = 'No live matches at the moment.';
+                    return;
+                }
+           tempMatches.className='';
+               tempMatches.innerHTML = events.map(event => {
+        const teams = event.match?.teams ?? [];
+        const [team1, team2] = teams;
+
+        const teamHtml = t => `
+            <div class="team">
+                ${t?.image ? `<img src="${t.image}" alt="${t.code ?? ''}">` : ''}
+                <span>${t?.code ?? t?.name ?? '?'} (${t?.result?.gameWins ?? 0})</span>
+            </div>`;
+
+        return `
+            <div class="match">
+                <div>
+                    <div class="league">
+                        ${event.league?.name ?? ''} — ${event.blockName ?? ''}
+                    </div>
+
+                    ${teamHtml(team1)} vs ${teamHtml(team2)}
+                </div>
+
+                <div class="state">
+                    ${event.state}
+                </div>
+            </div>`;
+    }).join('');
+    //tempMatches.innerHTML = events.map(event => `<div>${event.Name}</div>`).join('');
+        } catch (error) {
+            console.error('Error fetching live events:', error);
+            tempMatches.innerHTML = 'Error loading matches.';
+        }
+    }
+    loadLive();
+    setInterval(loadLive, 30000);
+</script>
+<div class="news-section">
+    <div class="news-header">
+        <h2>Latest News</h2>
+        <a href="/news" class="news-view-all">View all →</a>
+    </div>
+
+    <div class="news-grid">
+
+        <!-- News article -->
+        @* <article class="news-card">
+            <img src="https://placehold.co/600x340"
+                 alt="News image"
+                 class="news-image">
+
+            <div class="news-content">
+                <span class="news-source">LoL Esports</span>
+
+                <h3 class="news-title">
+                    Latest League of Legends Esports News
+                </h3>
+
+                <p class="news-description">
+                    This is where the article description will appear.
+                </p>
+
+                <div class="news-meta">
+                    <span>2 hours ago</span>
+                    <a href="#" class="news-read-more">
+                        Read more →
+                    </a>
+                </div>
+            </div>
+        </article>
+
+        <!-- News article -->
+        <article class="news-card">
+            <img src="https://placehold.co/600x340"
+                 alt="News image"
+                 class="news-image">
+
+            <div class="news-content">
+                <span class="news-source">LEC</span>
+
+                <h3 class="news-title">
+                    Another League Esports Story
+                </h3>
+
+                <p class="news-description">
+                    Your article description goes here.
+                </p>
+
+                <div class="news-meta">
+                    <span>5 hours ago</span>
+                    <a href="#" class="news-read-more">
+                        Read more →
+                    </a>
+                </div>
+            </div>
+        </article>
+
+        <!-- News article -->
+        <article class="news-card">
+            <img src="https://placehold.co/600x340"
+                 alt="News image"
+                 class="news-image">
+
+            <div class="news-content">
+                <span class="news-source">Worlds</span>
+
+                <h3 class="news-title">
+                    Worlds 2026 Update
+                </h3>
+
+                <p class="news-description">
+                    Another example article for the layout.
+                </p>
+
+                <div class="news-meta">
+                    <span>Yesterday</span>
+                    <a href="#" class="news-read-more">
+                        Read more →
+                    </a>
+                </div>
+            </div>
+        </article> *@
+
+    </div>
+</div>
+
+@foreach (var article in Model.News)
+{
+    <article class="news-card">
+        <img src="@article.ImageUrl"
+             alt="@article.Title"
+             class="news-image">
+
+        <div class="news-content">
+            <span class="news-source">
+                @article.SourceName
+            </span>
+
+            <h3 class="news-title">
+                @article.Title
+            </h3>
+
+            <p class="news-description">
+                @article.Description
+            </p>
+
+            <div class="news-meta">
+                <span>
+                    @article.PublishedAt.ToString("dd.MM.yyyy HH:mm")
+                </span>
+
+                <a href="@article.Url"
+                   target="_blank"
+                   class="news-read-more">
+                    Read more →
+                </a>
+            </div>
+        </div>
+    </article>
+}
+
+

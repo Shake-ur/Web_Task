@@ -1,31 +1,136 @@
+```css
+/* =========================
+   THEME
+   ========================= */
+/* Light mode */
+:root {
+    --site-background: #ffffff;
+    --site-text: #212529;
+    --site-card-background: #ffffff;
+    --site-border: #dee2e6;
+}
+
+/* Dark mode */
+body.dark-mode {
+    --site-background: #121212;
+    --site-text: #eeeeee;
+    --site-card-background: #1e1e1e;
+    --site-border: #333333;
+    /* Bootstrap variables */
+    --bs-body-bg: #121212;
+    --bs-body-color: #eeeeee;
+    --bs-emphasis-color: #ffffff;
+    --bs-secondary-color: #aaaaaa;
+    --bs-border-color: #333333;
+    --bs-tertiary-bg: #1e1e1e;
+}
+
+
+/* =========================
+   GENERAL
+   ========================= */
+
 html {
-  font-size: 14px;
+    font-size: 14px;
+    position: relative;
+    min-height: 100%;
+    background-color: var(--site-background);
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
+    html {
+        font-size: 16px;
+    }
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background-color: var(--site-background);
+    color: var(--site-text);
+    transition: background-color 0.2s ease, color 0.2s ease;
 }
 
-.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
-  color: var(--bs-secondary-color);
-  text-align: end;
+
+/* =========================
+   BOOTSTRAP COMPONENTS
+   ========================= */
+
+/* Cards */
+.card {
+    background-color: var(--site-card-background);
+    color: var(--site-text);
+    border-color: var(--site-border);
 }
 
-.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
-  text-align: start;
+
+/* Forms */
+.form-control,
+.form-select {
+    background-color: var(--site-card-background);
+    color: var(--site-text);
+    border-color: var(--site-border);
 }
+
+    .form-control:focus,
+    .form-select:focus {
+        background-color: var(--site-card-background);
+        color: var(--site-text);
+    }
+
+
+/* Navbar */
+.navbar {
+    background-color: var(--site-card-background);
+}
+
+
+/* Footer */
+.footer {
+    background-color: var(--site-card-background);
+    color: var(--site-text);
+}
+
+
+/* Links */
+body.dark-mode a {
+    color: #66b3ff;
+}
+
+body.dark-mode .navbar .nav-link {
+    color: #eeeeee;
+}
+
+    body.dark-mode .navbar .nav-link:hover {
+        color: #ffffff;
+    }
+
+
+/* =========================
+   BUTTON FOCUS
+   ========================= */
+
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+
+/* =========================
+   FORM FLOATING
+   ========================= */
+
+.form-floating > .form-control-plaintext::placeholder,
+.form-floating > .form-control::placeholder {
+    color: var(--bs-secondary-color);
+    text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder,
+.form-floating > .form-control:focus::placeholder {
+    text-align: start;
+}
+
+```
