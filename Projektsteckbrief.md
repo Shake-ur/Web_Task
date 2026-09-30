@@ -3,33 +3,37 @@ Projektnummer: IT-APP3-2026-DK                Version: 1.0 Datum:_______
 Projektstart:_________                        Projektende:______________
 
 Projektteam
+------------------------------------------------------
 Rolle       | Name       |Aufgabenschwerpunkt
+------------------------------------------------------
 Project-Lead|David Krämer|Development & Infrastruktur
 
 
 Projektziel
-
+------------
 Ein Fantasyleague projekt angelehnt and Fantasyfootball, gebaut für enthusiasten und interessierte, rein zu unterhaltungs zwecken.
 
 Das Hauptziel ist es ein Spaßiges und anregendes Web umfeld zu bauen.
 
 Projektergebnisse & Lieferobjekte
-
+---------------------------------
 Informative Weboberfläche
 Umfassendes Unterhaltungsprodukt
 
 
-Nicht-Ziele
+Nicht-Ziele:
+-------------------------------------
 Einnahmen, keine diskussions platform. 
 
 
 Geplante Technologien:
+-------------------------------
 asp.net, css, java-script, sql
 
 
 Risiken.
-
 Risiko           |Eintritts-warscheinlichkeit|Auswirkung                                                                 |Gegenmaßnahmen
+-----------------------------------------------------------------------------------------------------------------------------------------
 Account Diebstahl|25-40%                     | Datendiebstahl, Nutzer dissatisfaction                                    | Verschlüsselung von Daten (DB & Frontend To Backend), https access only
 Cheating         |10%                        | Unfaire vorteile für gewisse nutzer, Nutzer dissatisfaction               | Aktuelle Daten von seriösen quellen die im backend gespeichert und auch nur von dort gelesen werden
 Verbal Abuse     |100%                       | Nutzer Exodus, Nutzer dissatisfaction                                     | Language Filter mit konsequenzen
