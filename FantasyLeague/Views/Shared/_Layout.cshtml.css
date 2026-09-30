@@ -97,7 +97,9 @@ a {
 .nav-link {
     color: var(--site-text);
 }
-
+.nav-item{
+    color: var(--site-text);
+}
 body.dark-mode .nav-link {
     color: #eeeeee;
 }

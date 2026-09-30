@@ -1,4 +1,4 @@
-```css
+css
 /* =========================
    THEME
    ========================= */
@@ -93,7 +93,7 @@ body {
 
 /* Links */
 body.dark-mode a {
-    color: #66b3ff;
+    color: #eeeeee;
 }
 
 body.dark-mode .navbar .nav-link {
@@ -133,4 +133,4 @@ body.dark-mode .navbar .nav-link {
     text-align: start;
 }
 
-```
+
