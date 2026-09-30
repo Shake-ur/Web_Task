@@ -6,7 +6,9 @@ Timeline should be --> landing page, login & account system, Schedule, login, dr
 
 Techstack asp.net, sql for data keeping (if requirements change or other seems to be more appropriate this will be corrected here). in case asp.net is not qualified for game aspects use j-script or other
 
-Layout should be somewhat according to wireframe drawn on paper.
+Layout should be somewhat according to wireframe drawn on paper. Will get Digitized and then Uploaded in the Main Branch of project.
+
+Main branch is for documenting, Master is for developing.
 
 
 
