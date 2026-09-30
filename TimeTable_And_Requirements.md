@@ -18,7 +18,7 @@ Was ist Nice to have
 
 was ist optional.
 
-Available Hours: 100, estimated without the additional sixth day, at 5h a week for simplicity sake.
+Available Hours: 100, estimated without the additional sixth day, at 5h a day for simplicity sake.
 
 Was ist ein MUSS: TOTAL HOURS 52.6 REMAINING 47.4
 -----------------------------------------------------------------------------------------------------------------------------
@@ -28,7 +28,7 @@ Landing page anhand user ein / ausloggen (wenn remember me an ist) (3h)
 
 Landing page, selected regions/leagues anhand von gespeicherten informationen (2h)
 
-News sollen von svertrauenswürdigen quellen herangeholt werden. (1h, Done)
+News sollen von vertrauenswürdigen quellen herangeholt werden. (1h, Done)
 
 play und draft aspekte müssen möglichst flüssig und intuitiv to use sein. (15h)
 
