@@ -10,9 +10,6 @@ Layout should be somewhat according to wireframe drawn on paper. Will get Digiti
 
 Main branch is for documenting, Master is for developing.
 
-
-
-
 Grundlegende fragen:
 
 Was MUSS funktionieren
@@ -21,78 +18,66 @@ Was ist Nice to have
 
 was ist optional.
 
+Available Hours: 100, estimated without the additional sixth day, at 5h a week for simplicity sake.
 
-
-Was ist ein MUSS:
+Was ist ein MUSS: TOTAL HOURS 52.6 REMAINING 47.4
 -----------------------------------------------------------------------------------------------------------------------------
-Funktionierendes Login system. 
+Funktionierendes Login system. (roughly 4h)
 
-Landing page anhand user ein / ausloggen (wenn remember me an ist)
+Landing page anhand user ein / ausloggen (wenn remember me an ist) (3h)
 
-Landing page, selected regions/leagues anhand von gespeicherten informationen
+Landing page, selected regions/leagues anhand von gespeicherten informationen (2h)
 
-News sollen von svertrauenswürdigen quellen herangeholt werden.
+News sollen von svertrauenswürdigen quellen herangeholt werden. (1h, Done)
 
-play und draft aspekte müssen möglichst flüssig und intuitiv to use sein. (falls asp.net nicht ausreicht, switch to j-script)
+play und draft aspekte müssen möglichst flüssig und intuitiv to use sein. (15h) (falls asp.net nicht ausreicht, switch to j-script)
 
-play engine  die anhand der stats und slight randomization das ergebnis errechnet.
+play engine  die anhand der stats und slight randomization das ergebnis errechnet. (4h, Balancing is not included)
 
-Dark mode
+Dark mode (Done, 0,2h)
 
-Visual output für selected und hovered.
+Visual output für selected und hovered. (1h)
 
-play and draft sollen recent performance reflektieren, daten können von loldb geholt werden. (API????)
+play and draft sollen recent performance reflektieren, daten können von loldb geholt werden. (5h) (API????)
 
-Recent performance soll auswirkung auf preis haben genauso wie popularity with players.
+Recent performance soll auswirkung auf preis haben genauso wie popularity with players. (2h, Balancing not included)
 
-Single global Fantasyplay league.
+Single global Fantasyplay league. (7h)
 
-Private leagues/user created leagues
+Private leagues/user created leagues (3h)
 
-Easy to use league creator.
+Easy to use league creator. (2h)
 
-league invite system.
+league invite system. (1h)
 
-Economy system (currency, fees für spieler, renaming actions for fees)
+Economy system (currency, fees für spieler, renaming actions for fees) (4h, Without Balancing)
 
-player lock (during league players can not be swapped)
+player lock (during league players can not be swapped) (0,2h)
 
-user profile pictures
+user profile pictures (0,2h)
 
-Was ist nice to have:
+Was ist nice to have: HOURS FOR THIS: 21.5 TOTAL HOURS: 74.1 , Remaining 25.9h
 -----------------------------------------------------------------------------------------------------------------------------
-Sounds die das geschehen reflektieren.
+Sounds die das geschehen reflektieren. (3h)
 
-Videoplayer für current running games.
+Videoplayer für current running games. (1h)
 
-Betting/Spectator system für private leagues.
+Betting/Spectator system für private leagues. (4h)
 
-fleshed out contract system (players can play for multiple leagues/teams, have to be acquired up to certain Date otherwise consequences) 
+fleshed out contract system (players can play for multiple leagues/teams, have to be acquired up to certain Date otherwise consequences) (6h, without balancing)
 
-Injury / sickness system (random chance/according to irl injury)
+Injury / sickness system (random chance/according to irl injury) (5h)
 
-Friend system.
+Friend system. (2.5h)
 
-Was ist optional:
+Was ist optional: HOURS FOR THIS: 23 TOTAL HOURS: 97.1, Remaining: 2.9h
 -----------------------------------------------------------------------------------------------------------------------------
-Clans
 
-Tournaments
+Tournaments (4h)
 
-Quests and reward system
+Quests and reward system (5h, time spend on quest creator)
 
-Skins for players/environment
+direct messaging system. (4h)
 
-more user customisation (different fonts, profile picture outlines, like discord stuff)
+Single player mode (you vs game engine.) (10h)
 
-direct messaging system.
-
-Single player mode (you vs game engine.)
-
-long form single player mode (career type mode)
-
-Review system
-
-User account comments (comments on a profile)
-
-Public Profile customization
