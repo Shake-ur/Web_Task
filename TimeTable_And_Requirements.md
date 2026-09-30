@@ -70,12 +70,12 @@ Injury / sickness system (random chance/according to irl injury) (5h)
 
 Friend system. (2.5h)
 
-Was ist optional: HOURS FOR THIS: 23 TOTAL HOURS: 97.1, Remaining: 2.9h
+Was ist optional: HOURS FOR THIS: 24 TOTAL HOURS: 98.1, Remaining: 1.9h
 -----------------------------------------------------------------------------------------------------------------------------
 
 Tournaments (4h)
 
-Quests and reward system (5h, time spend on quest creator)
+Quests and reward system (6h, time spend on quest creator and spreading to accounts)
 
 direct messaging system. (4h)
 
