@@ -4,7 +4,7 @@ Timeline estimate: 4weeks (6 days a week at 4-5h) (1-5 regular, +1 day a week if
 
 Timeline should be --> landing page, login & account system, Schedule, draft, play
 
-Techstack asp.net, sql for data keeping (if requirements change or other seems to be more appropriate this will be corrected here). in case asp.net is not qualified for game aspects use j-script or other
+Techstack asp.net, sql for data keeping (if requirements change or other seems to be more appropriate this will be corrected here).
 
 Layout should be somewhat according to wireframe drawn on paper. Will get Digitized and then Uploaded in the Main Branch of project.
 
@@ -30,7 +30,7 @@ Landing page, selected regions/leagues anhand von gespeicherten informationen (2
 
 News sollen von svertrauenswürdigen quellen herangeholt werden. (1h, Done)
 
-play und draft aspekte müssen möglichst flüssig und intuitiv to use sein. (15h) (falls asp.net nicht ausreicht, switch to j-script)
+play und draft aspekte müssen möglichst flüssig und intuitiv to use sein. (15h)
 
 play engine  die anhand der stats und slight randomization das ergebnis errechnet. (4h, Balancing is not included)
 
