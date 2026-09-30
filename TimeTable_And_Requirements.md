@@ -27,11 +27,11 @@ Was ist ein MUSS:
 -----------------------------------------------------------------------------------------------------------------------------
 Funktionierendes Login system. 
 
-Landing page anhand von cookies user ein / ausloggen (wenn remember me an ist)
+Landing page anhand user ein / ausloggen (wenn remember me an ist)
 
-Landing page, selected regions/leagues anhand von cookies
+Landing page, selected regions/leagues anhand von gespeicherten informationen
 
-News sollen von sheepesports/lolesports.com herangeholt werden.
+News sollen von svertrauenswürdigen quellen herangeholt werden.
 
 play und draft aspekte müssen möglichst flüssig und intuitiv to use sein. (falls asp.net nicht ausreicht, switch to j-script)
 
